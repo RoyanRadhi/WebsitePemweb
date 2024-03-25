@@ -1,0 +1,10 @@
+img { 
+    transition: filter 1s linear;
+    filter: blur(10px); /* Gambar akan blur secara default */
+}
+.blur { filter: none; 
+}
+
+.gam {
+    pointer-events: none;
+}
